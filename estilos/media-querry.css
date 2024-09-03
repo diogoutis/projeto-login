@@ -7,6 +7,7 @@
 
     section#login {
         width: 80vw;
+        height: 300px;
     }
 
     section#login > div#imagen {
@@ -20,6 +21,15 @@
         float: right;
         width: 70%;
     }
+
+    p#diogoutis {
+        color: #312924;
+        margin-top: 29px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 0.8em;
+        vertical-align: bottom;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -29,6 +39,7 @@
 
     section#login {
         width: 950px;
+        height: 350px;
     }
 
     section#login > div#imagen {
@@ -47,6 +58,16 @@
     }
 
     div#formulario > p {
-        font-size: 1.1em;
+        font-size: 0.9em;
+        margin: 20px 0px;
+    }
+
+    p#diogoutis {
+        color: #312924;
+        margin-top: 39px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 0.8em;
+        vertical-align: bottom;
     }
 }
